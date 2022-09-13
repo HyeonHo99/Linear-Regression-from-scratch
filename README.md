@@ -44,5 +44,6 @@ def analytic_solution(self, x, y):
     self.W = np.dot(inverse,np.dot(x_T,y))
 ```
 #### General Derivation
-
-#### Derivation Details
+  <img src="imgs/general.PNG" width="450" height="250"/><br>
+#### Detailed Derivation
+  <img src="imgs/detail.PNG" width="500" height="250"/><br>
