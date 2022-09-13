@@ -51,6 +51,37 @@ def analytic_solution(self, x, y):
 ### 2. Numerical Solution (Batch Gradient Descent)
 <div>
   Compute gradient using <b>full training samples</b><br>
-  
+    <img src="imgs/batch_gradient.PNG" width="300" height="50"/><br>
   And Update <b>W</b>(weights)<br>
+    <img src="imgs/update.PNG" width="150" height="50"/><br>
 </div>
+
+```python
+    def numerical_solution(self, x, y, epochs, batch_size, lr, optim, batch_gradient=False):
+        self.W = self.W.reshape(-1)
+        num_data = len(x)
+        num_batch = int(np.ceil(num_data / batch_size))
+
+        for epoch in range(epochs):
+            if batch_gradient:
+                # batch gradient descent
+                grad = None
+                loss_vector = np.dot(x,self.W) - y
+                loss_vector = loss_vector.reshape(-1,1)
+                grad = np.mean(loss_vector*x,axis=0)
+                self.W = optim.update(self.W, grad, lr)
+            else:
+                # mini-batch stochastic gradient descent
+                for batch_index in range(num_batch):
+                    batch_x = x[batch_index*batch_size:(batch_index+1)*batch_size]
+                    batch_y = y[batch_index*batch_size:(batch_index+1)*batch_size]
+
+                    num_samples_in_batch = len(batch_x)
+
+                    grad = None
+                    loss_vector = np.dot(batch_x,self.W) - batch_y
+                    loss_vector = loss_vector.reshape(-1,1)
+                    grad = np.mean(loss_vector * batch_x,axis=0)
+
+                    self.W = optim.update(self.W, grad, lr)
+```
