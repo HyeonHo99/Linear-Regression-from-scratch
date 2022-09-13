@@ -50,7 +50,7 @@ def analytic_solution(self, x, y):
 
 ### 2. Numerical Solution (Batch Gradient Descent)
 <div>
-  Compute gradient using <b>full training samples<b/><br>
+  Compute gradient using <b>full training samples</b><br>
   
   And Update <b>W</b>(weights)<br>
 </div>
