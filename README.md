@@ -21,3 +21,13 @@ Formulation is defined as below <br>
 In the case 'Simple Linear Regression' (one feature for one data), it can be indicated as <br>
 <img src="imgs/mse_simple.PNG" width="300" height="100"/>
 </div>
+
+## Solving Optimization
+### 1. Analytical Solution (using Normal Equation)
+<div>
+  Let's define <br>
+  <b>X</b>:&nbsp;&nbsp; Input data &nbsp;&nbsp;Shape: n x (d+1) <br>
+  <b>w</b>:&nbsp;&nbsp; weights &nbsp;&nbsp;Shape: (d+1) x 1 <br>
+  <b>y&#770;</b>:&nbsp;&nbsp; predicted value &nbsp;&nbsp;Shape: nx1 <br>
+  <b>y</b>:&nbsp;&nbsp; ground truth &nbsp;&nbsp;Shape: nx1 <br>
+</div>
