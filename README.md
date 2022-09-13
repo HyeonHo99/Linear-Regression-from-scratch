@@ -13,9 +13,9 @@ Numpy implementation of Linear Regression (without using explicit ML libraries)
   </div>
 </div>
 
-## Error function (Loss function) : Least Square Error
+## Error function (Loss function) : Least Squares Error
 <div>
-Least Square Error aims to minimize the sum of squared residuals between actual values and predicted values <br>
+Least Squares Error aims to minimize the sum of squared residuals between actual values and predicted values <br>
 Formulation is defined as below <br>
 <img src="imgs/mse.PNG" width="300" height="60"/><br>
 In the case 'Simple Linear Regression' (one feature for one data), it can be indicated as <br>
@@ -32,3 +32,7 @@ In the case 'Simple Linear Regression' (one feature for one data), it can be ind
   <b>y</b>:&nbsp;&nbsp; ground truth &nbsp;&nbsp;Shape: nx1 <br>
   <img src="imgs/vectors_def.PNG" width="500" height="250"/>
 </div>
+<div>
+  In the case of Least Squares Error, analytical solution is derived as below.
+  
+</div
