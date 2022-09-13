@@ -37,6 +37,8 @@ In the case 'Simple Linear Regression' (one feature for one data), it can be ind
   <img src="imgs/normal_equation.PNG" width="400" height="300"/>
 </div>
 
+#### Numpy Implementation
+
 ```python
 def analytic_solution(self, x, y):
     x_T = np.transpose(x)
@@ -55,6 +57,8 @@ def analytic_solution(self, x, y):
   And Update <b>W</b>(weights)<br>
     <img src="imgs/update.PNG" width="150" height="50"/><br>
 </div>
+
+#### Numpy Implementation
 
 ```python
     def numerical_solution(self, x, y, epochs, batch_size, lr, optim, batch_gradient=False):
