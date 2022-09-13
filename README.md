@@ -33,6 +33,13 @@ In the case 'Simple Linear Regression' (one feature for one data), it can be ind
   <img src="imgs/vectors_def.PNG" width="500" height="250"/>
 </div>
 <div>
-  In the case of <b>Least Squares Error</b>, analytical solution is derived as below.
-  
-</div
+  In the case of <b>Least Squares Error</b>, analytical solution is derived as below. <br>
+  <img src="imgs/normal_equation.PNG" width="400" height="300"/>
+</div>
+
+```python
+def analytic_solution(self, x, y):
+    x_T = np.transpose(x)
+    inverse = np.linalg.inv(np.dot(x_T,x))
+    self.W = np.dot(inverse,np.dot(x_T,y))
+```
