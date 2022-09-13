@@ -2,4 +2,4 @@
 Numpy implementation of Linear Regression (wo/ explicit ML libraries)
 
 ## Types of Regression Models <br>
-<img src="imgs/types.jpg" width="100" height="100"/>
+<img src="imgs/types.jpg" width="300" height="300"/>
