@@ -33,6 +33,6 @@ In the case 'Simple Linear Regression' (one feature for one data), it can be ind
   <img src="imgs/vectors_def.PNG" width="500" height="250"/>
 </div>
 <div>
-  In the case of Least Squares Error, analytical solution is derived as below.
+  In the case of <b>Least Squares Error</b>, analytical solution is derived as below.
   
 </div
