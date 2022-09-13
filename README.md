@@ -26,10 +26,12 @@ In the case 'Simple Linear Regression' (one feature for one data), it can be ind
 ### 1. Analytical Solution (using Normal Equation)
 <div>
   Let's define <br>
-  <b>X</b>:&nbsp;&nbsp; Input data &nbsp;&nbsp;Shape: n x (d+1) <br>
-  <b>w</b>:&nbsp;&nbsp; Weights &nbsp;&nbsp;Shape: (d+1) x 1 <br>
-  <b>y&#770;</b>:&nbsp;&nbsp; Predicted value &nbsp;&nbsp;Shape: nx1 <br>
-  <b>y</b>:&nbsp;&nbsp; Ground truth &nbsp;&nbsp;Shape: nx1 <br>
+  <ul>
+    <li><b>X</b>:&nbsp;&nbsp; Input data &nbsp;[ n x (d+1) ]<br></li>
+    <li><b>w</b>:&nbsp;&nbsp; Weights &nbsp;[ (d+1) x 1 ]<br></li>
+    <li><b>y&#770;</b>:&nbsp;&nbsp; Predicted value &nbsp;[ n x 1 ]<br></li>
+    <li><b>y</b>:&nbsp;&nbsp; Ground truth &nbsp;[n x 1 ]<br></li>
+  </ul>
   <img src="imgs/vectors_def.PNG" width="500" height="250"/>
 </div>
 <div>
