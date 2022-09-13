@@ -15,5 +15,8 @@ Numpy implementation of Linear Regression (without using explicit ML libraries)
 ## Error function (Loss function) : Mean Squared Error
 <div>
 MSE aims to minimize the sum of squared residuals between actual values and predicted values <br>
-Formulation is defined as below
+Formulation is defined as below <br>
+<img src="imgs/mse.PNG" width="300" height="60"/><br>
+In the case 'Simple Linear Regression' (one feature for one data), it can be indicated as <br>
+<img src="imgs/mse_simple.PNG" width="300" height="100"/>
 </div>
