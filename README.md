@@ -9,7 +9,7 @@ Numpy implementation of Linear Regression (without using explicit ML libraries)
   </div>
   <div>
     ✔️ Here we build a <b>Multiple Linear Regression Model</b> which assumes input features are multiple (input data with single feature is also applicable) <br>
-    
+        <img src="imgs/multiple_linear_regression.PNG" width="650" height="80"/>
   </div>
 </div>
 
