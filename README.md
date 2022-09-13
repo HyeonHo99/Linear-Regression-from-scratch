@@ -30,4 +30,5 @@ In the case 'Simple Linear Regression' (one feature for one data), it can be ind
   <b>w</b>:&nbsp;&nbsp; weights &nbsp;&nbsp;Shape: (d+1) x 1 <br>
   <b>y&#770;</b>:&nbsp;&nbsp; predicted value &nbsp;&nbsp;Shape: nx1 <br>
   <b>y</b>:&nbsp;&nbsp; ground truth &nbsp;&nbsp;Shape: nx1 <br>
+  <img src="imgs/vectors_def.PNG" width="500" height="250"/>
 </div>
