@@ -43,3 +43,6 @@ def analytic_solution(self, x, y):
     inverse = np.linalg.inv(np.dot(x_T,x))
     self.W = np.dot(inverse,np.dot(x_T,y))
 ```
+#### General Derivation
+
+#### Derivation Details
