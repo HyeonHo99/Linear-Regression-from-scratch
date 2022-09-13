@@ -47,3 +47,10 @@ def analytic_solution(self, x, y):
   <img src="imgs/general.PNG" width="450" height="250"/><br>
 #### Detailed Derivation
   <img src="imgs/detail.PNG" width="500" height="250"/><br>
+
+### 2. Numerical Solution (Batch Gradient Descent)
+<div>
+  Compute gradient using <b>full training samples<b/><br>
+  
+  And Update <b>W</b>(weights)<br>
+</div>
