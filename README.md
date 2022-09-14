@@ -91,3 +91,7 @@ def analytic_solution(self, x, y):
 
                     self.W = optim.update(self.W, grad, lr)
 ```
+
+
+## Reference
+SungKyunKwan University, College of Computing, SWE3050_41
